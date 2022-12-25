@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+.impo {
+    width: 100%;
+    height: 700px;
+    background: url(../image/aster-types-of-flowers-1579719549.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.impo .impo-content {
+    position: absolute;
+    width: 1500px;
+    height: 500px;
+    border-radius: 12px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0000005e;
+}
+
+.impo .impo-content h3 {
+    text-align: center;
+    color: white;
+    font-family: 'Charm';
+}
+.impo .impo-content h2{
+    text-align: center;
+    color: white;
+    font-family: 'Itim';
+}
+
+#bouquet-container .row img {
+    max-width: 100%;
+}
+
+.bouquet-image-wrapper {
+    height: 190px;
+    overflow: hidden;
+}
+
+.bouquet-image-wrapper img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+#bouquet-container h1{
+    font-family: 'Itim';
+}
